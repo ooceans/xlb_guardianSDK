@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'xlb_guardian'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'xlb guardianSDK plugin'
   s.description      = <<-DESC
 xlb amap plugin
@@ -13,7 +13,7 @@ xlb amap plugin
   s.license          = { :file => '../LICENSE' }
   s.authors          = {"ouxiang" => "ouxiang@xiangleba.com.cn"}
   s.source           = { :git => "https://github.com/ooceans/xlb_guardianSDK.git", :tag => "#{s.version}" }
-  s.source_files     = "framework", "framework/*", "*.{framework}"
+  s.source_files     = "framework"
   
   # s.dependency 'AMapLocation-NO-IDFA'
   # s.dependency 'Flutter'
