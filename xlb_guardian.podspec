@@ -13,13 +13,13 @@ xlb amap plugin
   s.license = { :file => '../LICENSE' }
   s.authors = {"ouxiang" => "ouxiang@xiangleba.com.cn"}
   s.source = { :git => "https://github.com/ooceans/xlb_guardianSDK.git", :tag => "#{s.version}" }
-  s.source_files = "framework/*"
+  s.source_files = 'framework/**/*'
   
   # s.dependency 'AMapLocation-NO-IDFA'
   # s.dependency 'Flutter'
   s.platform = :ios, '8.0'
   s.requires_arc = true
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
-  # s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
   # s.swift_version = '5.0'
 end
