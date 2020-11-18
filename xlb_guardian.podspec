@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 xlb amap plugin
                        DESC
-  s.homepage         = 'http://example.com'
-  s.license          = { :file => '../LICENSE' }
-  s.authors          = {"ouxiang" => "ouxiang@xiangleba.com.cn"}
-  s.source           = { :git => "https://github.com/ooceans/xlb_guardianSDK.git", :tag => "#{s.version}" }
-  s.source_files     = "framework"
+  s.homepage = 'http://example.com'
+  s.license = { :file => '../LICENSE' }
+  s.authors = {"ouxiang" => "ouxiang@xiangleba.com.cn"}
+  s.source = { :git => "https://github.com/ooceans/xlb_guardianSDK.git", :tag => "#{s.version}" }
+  s.source_files = "framework/*"
   
   # s.dependency 'AMapLocation-NO-IDFA'
   # s.dependency 'Flutter'
